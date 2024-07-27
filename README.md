@@ -48,7 +48,7 @@ Prequisites:
 
     (Preferred) If you use Conda, in the same terminal, run:
     ```bash
-    conda env create -f requirements.txt -n sumdigitssquared python=3.9.18
+    conda env create -f requirements_conda.txt -n sumdigitssquared
     conda activate sumdigitssquared
     ```
 
@@ -56,7 +56,7 @@ Prequisites:
     ```bash
     python3 -m venv venv
     source venv/bin/activate
-    pip install -r requirements.txt
+    pip install -r requirements_pip.txt
     ```
 
 1. Run the code. In the same terminal, run:
