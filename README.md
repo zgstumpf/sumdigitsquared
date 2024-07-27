@@ -41,7 +41,7 @@ Prequisites:
 
 1. In your terminal, run:
     ```bash
-    git clone https://github.com/zgstumpf/sumdigitsquared.git
+    git clone https://github.com/zgstumpf/sumdigitssquared.git
     cd sumdigitssquared
     ```
 1. Install dependencies in a virtual environment.
