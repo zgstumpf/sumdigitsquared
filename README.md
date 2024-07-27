@@ -48,7 +48,7 @@ Prequisites:
 
     (Preferred) If you use Conda, in the same terminal, run:
     ```bash
-    conda env create -f requirements_conda.txt -n sumdigitssquared
+    conda create -f requirements_conda.txt -n sumdigitssquared
     conda activate sumdigitssquared
     ```
 
@@ -71,5 +71,5 @@ To remove this project from your device:
 2. If you used Conda, run:
     ```bash
     conda deactivate sumdigitssquared
-    conda remove -n sumdigitssquared --all
+    conda remove -n sumdigitssquared --all -y
     ```
