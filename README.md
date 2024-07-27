@@ -1,13 +1,13 @@
 # Sum Digits Squared Test
 
-Programmers often have to manipulate numbers. Sometimes, this can be accomplished by only performing mathematical operations, which avoids type conversions. Other times, it seems converting the number to a different datatype, such as a string, must be done. Often, the string conversion method is more readable but comes with concerns that it is slower.
+Programmers often have to manipulate numbers. Sometimes this can be accomplished by only performing mathematical operations and avoiding type conversions. Other times, converting the number to a different datatype such as a string seems like the best approach. Often, the string conversion method is more readable but comes with concerns that it is slower.
 
 ## Problem
 The specific problem used in this experiment is:
 
 Calculate the sum of the squares of the digits of an integer.
 
-Example: 25 -> 2^2 + 5^5 = 4 + 25 = 29
+Example: `25 -> 2^2 + 5^5 = 4 + 25 = 29`
 
 ## Two Approaches
 
@@ -27,12 +27,12 @@ return sum([int(i) ** 2 for i in str(n)])
 ```
 
 ## Results
-For integers in the 1 to 10K range, the string method is slightly faster. However, as the integer size increases past 10K, the math method is slightly faster. No significant difference between the methods was observed. Results are generalized and may vary between test runs.
+For integers in the 1 to 10K range, the string method is slightly faster. As the integer size increases past 10K, the math method is slightly faster. No significant difference between the methods was observed. Results are generalized and may vary between test runs.
 
 ![Results Graph](./SumDigitsSquaredGraph.png)
 
 ## Conclusion
-In Python, don't be deterred from converting numeric datatypes to strings if it will make your code more readable. For small numbers, it may even be faster. The speed gains of the math method are not substantial enough to justify unreadable code.
+In Python, don't be deterred from converting numeric datatypes to strings if it will make your code more readable. For small numbers it may even be faster. The speed gains of the math method are not substantial enough to justify hard-to-read code.
 
 ## Install
 Prequisites:
@@ -57,7 +57,6 @@ Prequisites:
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
-    python3 main.py
     ```
 
 1. Run the code. In the same terminal, run:
