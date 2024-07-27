@@ -27,7 +27,7 @@ return sum([int(i) ** 2 for i in str(n)])
 ```
 
 ## Results
-For integers in the 1 to 10K range, the string method is slightly faster. As the integer size increases past 10K, the math method is slightly faster. No significant difference between the methods was observed. Results are generalized and may vary between test runs.
+In some test runs, for integers in the 1 to 10K range, the string method was slightly faster. As the integer size increases past 10K, the math method was consistently faster. Though the math method was usually faster, no significant difference between the methods was observed. Results are generalized and may vary between test runs.
 
 ![Results Graph](./SumDigitsSquaredGraph.png)
 
