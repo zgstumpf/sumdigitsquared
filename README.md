@@ -48,7 +48,7 @@ Prequisites:
 
     (Preferred) If you use Conda, in the same terminal, run:
     ```bash
-    conda create -f requirements_conda.txt -n sumdigitssquared
+    conda create --file requirements_conda.txt -n sumdigitssquared -y
     conda activate sumdigitssquared
     ```
 
